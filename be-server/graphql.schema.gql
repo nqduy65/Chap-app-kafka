@@ -1,0 +1,25 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Mutation {
+  signIn(signInInput: SignInInput!): SignInRecipe!
+}
+
+type Query {
+  getAServerSocket: ServerRecipe!
+  sayHello: String!
+}
+
+type ServerRecipe {
+  server: String!
+}
+
+input SignInInput {
+  password: String!
+  userName: String!
+}
+
+type SignInRecipe {
+  userId: Float!
+}
